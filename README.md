@@ -1,3 +1,7 @@
+### Note
+
+This is the same as the aircrack-ng version but with rtw_xmit.c from the Kali package repo as this seems to allow packet transmission on my VM.
+
 ## RTL8812AU/21AU Wireless drivers
 Only for use with Linux & Android
 
