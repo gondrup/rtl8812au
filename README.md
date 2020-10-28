@@ -1,6 +1,13 @@
 ### Note
 
-This is the same as the aircrack-ng version but with rtw_xmit.c from the Kali package repo as this seems to allow packet transmission on my VM.
+I forked this project to create a working driver for both of the following applications on a Raspberry Pi 3 Model B:
+
+* Monitoring packets via Kismet - this only worked for me when using aircrack-ng/rtl8812au
+* Transmitting packets via aireplay-ng - this only worked for me when using kalilinux/packages/realtek-rtl88xxau-dkms
+
+This is a clone of aircrack-ng/rtl8812au but with rtw_xmit.c replaced with the same file from kalilinux/packages/realtek-rtl88xxau-dkms.
+
+Both of the above applications work for me when compiling this using the instructions below on a Raspberry Pi 3 Model B.
 
 ## RTL8812AU/21AU Wireless drivers
 Only for use with Linux & Android
